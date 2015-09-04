@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+</html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"> 
+    <title>My First Web Form</title>	
+</head>
+<body>
+    <form class="contacto"  method="post" role="form" id="form"
+          action = "http://www.swolebrain.com:4003/email" onsubmit="validateForm(this);">
+            <div><label>Name:</label>
+            <input type="text" name="firstname" value="">
+            <input type="hidden" name="full_name">
+            </div>
+            
+            <div><label>Email:</label>
+            <input type="Mail" name="email" class="text-box"></div>
+            
+            <div><label>Subjet:</label><input type="text" value=""></div>
+            
+            <div><label>Message:</label><textarea rows="6"></textarea></div>
+            
+            <input type="hidden" name="full_name">
+            <input type="hidden" name="dest_email" value="julio181184@gmail.com">
+            
+            <link type="text/css" rel="stylesheet" href="http://jrodriguez.fvi-grad.com/mail/">
+            
+            <div><input type="submit" value="Send" class="btn"></div>
+            
+    </form>
+</body>
+
+
